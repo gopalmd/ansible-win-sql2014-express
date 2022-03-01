@@ -1,7 +1,7 @@
 - hosts: all
   gather_facts: True
   vars:
-   sql_instance_name: benz
+   sql_instance_name: Gani
   tasks:
    - debug: var=hostvars[inventory_hostname]
    - name: create a directory for installer download
